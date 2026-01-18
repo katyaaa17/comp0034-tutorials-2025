@@ -15,8 +15,7 @@ app = Dash()
 #df['end'] = pd.to_datetime(df['end'], dayfirst=True)
 
 app.layout = [
-    html.H1("Starfish Data Tracking App"),
-    dcc.Graph(figure=line_chart("participants", df)) 
+    html.H1("Starfish Data Tracking App"), 
 ]
 
 if __name__ == '__main__':
